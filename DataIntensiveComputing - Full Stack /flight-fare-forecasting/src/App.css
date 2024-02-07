@@ -1,0 +1,162 @@
+/* App.css */
+body {
+  font-family: 'Roboto', sans-serif; /* Change font family */
+  margin: 0;
+  padding: 0;
+  background-color: #f2f5f8; /* Lighter background color */
+  color: #333; /* Darker text color for better readability */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Use min-height for responsiveness */
+}
+
+.container {
+  display: flex;
+  width: 90%; /* Adjust width for responsiveness */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #fff; /* White background for the container */
+}
+
+.left-column,
+.right-column {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-column {
+  background: #f7fafc; /* Lighter blue background color */
+}
+
+.right-column {
+  background: #ffe5d9; /* Light coral background color */
+}
+
+h1 {
+  text-align: center;
+  color: #444; /* Darker grey text color */
+  font-size: 32px; /* Increased font size */
+}
+
+.forecast-result {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.predicted-fare {
+  font-size: 28px; /* Increased font size */
+  color: #6abf69; /* Lighter green text color */
+}
+
+.card {
+  background-color: #f4f4f4; /* Lighter grey background color for the card */
+  margin: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle shadow to cards */
+}
+
+
+/* App.css or your component-specific CSS file */
+.forecast-title {
+  font-size: 32px; /* Increase font size */
+  color: hwb(210 7% 33%); /* Change text color */
+  margin-bottom: 20px; /* Add some space below the title */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add text shadow */
+  text-align: center;
+  /* Add any other styles you want to enhance the appearance */
+}
+
+/* me  */
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.custom-card {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.custom-card-inner {
+  width: 200px;
+  height: 300px;
+  overflow: hidden;
+  background-color: rgb(117, 175, 226); /* Darker blue background color for the cards */
+  transition: transform 0.5s ease;
+}
+
+
+
+.custom-card-inner:hover {
+  transform: scale(1.05); /* Enlarge the card on hover */
+}
+
+.card-image {
+  object-fit: cover;
+  height: 150px;
+  width: 100%;
+}
+
+.card-text {
+  text-align: center;
+  color: white;
+}
+
+.card-heading {
+  font-size: 20px; /* Adjust the font size */
+  font-weight: bold; /* Apply bold font weight */
+  color: hsl(0, 100%, 99%); /* Change the color to your preference */
+  /* Add any additional styles you want for the card headings */
+}
+
+
+.date-card {
+  background-color: #2196F3; /* Background color */
+  color: #FFFFFF; /* Text color */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  padding: 20px; /* Padding */
+  width: 200px; /* Card width */
+  height: 300px; /* Card height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.flight-form-container {
+  background-image: url('https://images.unsplash.com/photo-1436491865332-7a61a109cc05?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZmxpZ2h0fGVufDB8fDB8fHww'); /* Replace with your image URL */
+  background-size: cover; /* Ensures the image covers the entire container */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+/* FlightForm.css */
+/* Add this CSS for the button styling */
+.custom-button {
+  background-color: #3498db; /* Set your desired background color */
+  color: white; /* Text color */
+  border: none; /* Remove button border */
+  padding: 10px 20px; /* Adjust padding as needed */
+  font-size: 26px; /* Font size */
+  cursor: pointer; /* Show pointer on hover */
+  border-radius: 6px; /* Add some border radius for rounded corners */
+  transition: background-color 0.3s ease-in-out; /* Add smooth transition effect */
+  display: block;
+  margin: 0 auto;
+}
+
+/* Change the button style when hovered */
+.custom-button:hover {
+  background-color: #2980b9; /* Change background color on hover */
+}
